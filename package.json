@@ -1,6 +1,6 @@
 {
   "name": "easy-shorten-url",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Shorten a URL very easily with this url shortener!",
   "main": "index.js",
   "dependencies": {

@@ -11,7 +11,7 @@ Shorten a URL very easily with this url shortener!
 ```
 const url = require("easy-shorten-url");
 
-url.shorten('https://dotwood.media/', function(res) {
+url.shorten('https://dotwood.media/').then(res => {
 	console.log(res); // Returns https://url.dotwood.media/8h6ywx5z
 });
 ```
