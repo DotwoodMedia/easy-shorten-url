@@ -1,0 +1,24 @@
+{
+  "name": "easy-shorten-url",
+  "version": "1.0.0",
+  "description": "Shorten a URL very easily with this url shortener!",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DotwoodMedia/easy-shorten-url.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DotwoodMedia/easy-shorten-url/issues"
+  },
+  "homepage": "https://github.com/DotwoodMedia/easy-shorten-url#readme"
+}
