@@ -1,8 +1,8 @@
 # Easy shorten url
 Shorten a URL very easily with this url shortener!
 
-<a href="https://www.npmjs.com/package/easy-shorten-url"><img src="https://img.shields.io/npm/v/easy-shorten-url.svg?maxAge=3600" alt="NPM version" /></a>
-<a href="https://www.npmjs.com/package/easy-shorten-url"><img src="https://img.shields.io/npm/dt/easy-shorten-url.svg?maxAge=3600" alt="NPM downloads" /></a>
+[![downloadsBadge](https://img.shields.io/npm/dt/easy-shorten-url?style=for-the-badge)](https://npmjs.com/easy-shorten-url)
+[![versionBadge](https://img.shields.io/npm/v/easy-shorten-url?style=for-the-badge)](https://npmjs.com/easy-shorten-url)
 
 # 💻 Example
 
@@ -13,6 +13,19 @@ const url = require("easy-shorten-url");
 
 url.shorten('https://dotwood.media/').then(res => {
 	console.log(res); // Returns https://url.dotwood.media/8h6ywx5z
+}).catch(err => {
+	console.log(err);
+});
+```
+
+URL with a custom code
+```
+const url = require("easy-shorten-url");
+
+url.custom('https://dotwood.media/', 'dm').then(res => {
+	console.log(res); // Returns https://url.dotwood.media/8h6ywx5z
+}).catch(err => {
+	console.log(err);
 });
 ```
 
